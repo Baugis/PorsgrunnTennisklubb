@@ -582,3 +582,7 @@ textarea {
 textarea:focus {
     box-shadow: none !important;
 }
+
+.dropdown-menu {
+    border: none !important;
+}
