@@ -22,7 +22,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-background navbar-dark fixed-top px-4 px-lg-4">
-            <a class="navbar-brand" href="./index.html">Porsgrunn Tennisklubb</a>
+            <a class="navbar-brand" href="./index">Porsgrunn Tennisklubb</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -30,53 +30,71 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item me-2 list">
-                        <a class="nav-link" href="./index.html">Hjem</a>
+                        <a class="nav-link" href="./index">Hjem</a>
                     </li>
                     <li class="nav-item me-2 list">
-                        <a class="nav-link" href="./info.html">Baneleie</a>
+                        <a class="nav-link" href="./info">Baneleie</a>
                     </li>
                     <li class="nav-item me-2 list">
-                        <a class="nav-link" href="./info.html#infoKurs">Kurs</a>
+                        <a class="nav-link" href="./info#infoKurs">Kurs</a>
                     </li>
                     <li class="nav-item me-2 list">
-                        <a class="nav-link" href="./info.html#infoTennisKids">TennisKids</a>
+                        <a class="nav-link" href="./info#infoTennisKids">TennisKids</a>
                     </li>
                     <li class="nav-item me-2 list">
-                        <a class="nav-link" href="./info.html#infoMedlem">Medlem</a>
+                        <a class="nav-link" href="./info#infoMedlem">Medlem</a>
                     </li>
                     <li class="nav-item me-2 list">
-                        <a class="nav-link" href="./info.html#infoAktiviteter">Aktiviteter</a>
+                        <a class="nav-link" href="./info#infoAktiviteter">Aktiviteter</a>
                     </li>
                     <li class="dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu" data-bs-toggle="dropdown"
                             aria-expanded="false">Klubben</a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
                             <li class="nav-item me-2">
-                                <a class="nav-link" href="./prisliste.html">Prisliste</a>
+                                <a class="nav-link" href="./prisliste">Prisliste</a>
                             </li>
                             <li class="nav-item me-2">
-                                <a class="nav-link" href="./klubbensHistorie.html">Klubbens historie</a>
+                                <a class="nav-link" href="./klubbensHistorie">Klubbens historie</a>
                             </li>
                             <li class="nav-item me-2">
-                                <a class="nav-link" href="./Styret.html">Styret</a>
+                                <a class="nav-link" href="./styret">Styret</a>
                             </li>
-                            <li class="nav-item me-2">
-                                <a class="nav-link" href="./Trenere.html">Trenere</a>
-                            </li>
+                            <!-- <li class="nav-item me-2">
+                                                    <a class="nav-link" href="./Trenere.html">Trenere</a>
+                                                </li> -->
                             <li>
                                 <hr />
                             </li>
                             <li class="nav-item me-2">
-                                <a class="nav-link" href="./prisliste.html">Vedtekter - organisasjonsplan - årshjul</a>
+                                <a class="nav-link"
+                                    href="https://www.porsgrunntk.no/A%CC%8Arsregnskap%202022%20Porsgrunn%20Tennisklubb.pdf"
+                                    target="_blank">Årsregnskap
+                                    2022</a>
                             </li>
                             <li class="nav-item me-2">
-                                <a class="nav-link" href="http://www.porsgrunntk.no/A%CC%8Arsm%C3%B8tereferat.pdf"
+                                <a class="nav-link" href="porsgrunntk.no/Saksliste%20PTK%20Årsmøte%202023.pdf"
+                                    target="_blank">Sakliste</a>
+                            </li>
+                            <li class="nav-item me-2">
+                                <a class="nav-link"
+                                    href="https://www.porsgrunntk.no/%C3%85rsm%C3%B8te%20Porsgrunn%20Tennisklubb%202023%20-%20Valgkomiteens%20Innstilling.pdf"
+                                    target="_blank">Valgkomiteens innstilling</a>
+                            </li>
+                            <li class="nav-item me-2">
+                                <a class="nav-link" href="https://www.porsgrunntk.no/%C3%85rsrapport%202022.pdf"
+                                    target="_blank">Årsrapport
+                                    2022</a>
+                            </li>
+                            <li class="nav-item me-2">
+                                <a class="nav-link" href="https://www.porsgrunntk.no/A%CC%8Arsm%C3%B8tereferat.pdf"
                                     target="_blank">Årsmøtereferat</a>
                             </li>
+
                         </ul>
                     </li>
                     <li class="nav-item me-2 active">
-                        <a class="nav-link" href="./kontakt.html">Kontakt</a>
+                        <a class="nav-link" href="./kontakt">Kontakt</a>
                     </li>
                 </ul>
             </div>
@@ -91,16 +109,16 @@
                     <h2>Har du noen spørsmål? Send oss en melding</h2>
                     <p>Vi vil komme tilbake til deg innen 24 timer</p>
                     <form class="form-group" action="https://formsubmit.co/01henrikb@gmail.com" method="POST" />
-                        <label for="fornavn">Fornavn</label>
-                        <input class="form-control mb-4" type="text" name="fornavn" id="name" required>
-                        <label for="epost">E-post</label>
-                        <input class="form-control mb-4" type="email" name="email" id="email" required>
-                        <label for="emne">Emne</label>
-                        <input class="form-control mb-4" type="text" name="emne" id="emne" required>
-                        <label for="melding">Melding</label>
-                        <textarea class="form-control mb-4" name="tekst" id="text" rows="7" style="width: 100%;"
-                            placeholder="Skriv meldingen din her" required></textarea>
-                        <button type="submit" class="btn btn-primary btn-lg">Send melding</button>
+                    <label for="fornavn">Fornavn</label>
+                    <input class="form-control mb-4" type="text" name="fornavn" id="name" required>
+                    <label for="epost">E-post</label>
+                    <input class="form-control mb-4" type="email" name="email" id="email" required>
+                    <label for="emne">Emne</label>
+                    <input class="form-control mb-4" type="text" name="emne" id="emne" required>
+                    <label for="melding">Melding</label>
+                    <textarea class="form-control mb-4" name="tekst" id="text" rows="7" style="width: 100%;"
+                        placeholder="Skriv meldingen din her" required></textarea>
+                    <button type="submit" class="btn btn-primary btn-lg">Send melding</button>
                     </form>
 
                 </div>
@@ -189,7 +207,7 @@
                     </div>
                 </div>
             </div> -->
-    
+
         <div class="footerBottom">
             <div class="container">
                 <div class="row">
@@ -198,7 +216,7 @@
                             <h4 class="me-4" style="margin: 0">Porsgrunn Tennisklubb</h4>
                             <p style="margin: 0">©2023 Porsgrunn Tennisklubb</p>
                         </div>
-    
+
                         <div class="footerSoMe">
                             <div class="d-flex align-items-center">
                                 <a class="soMeIcon me-2">
@@ -224,7 +242,7 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    
+
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
@@ -234,7 +252,7 @@
     <!-- Smtp -->
     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script>
-        function sendEmail(){
+        function sendEmail() {
             Email.send({
                 Host: "smtp.elasticemail.com",
                 Username: "01henrikb@gmail.com",
