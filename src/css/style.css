@@ -1,0 +1,584 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Universal */
+body {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+h2 {
+    font-weight: 600 !important;
+    font-size: 42px !important;
+    color: #232536 !important;
+    line-height: 56px !important;
+}
+
+h3 {
+    font-size: 36px !important;
+    font-weight: 600 !important;
+    color: #232536 !important;
+}
+
+h4 {
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    color: #232536 !important;
+    line-height: 36px;
+}
+
+h5 {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color: #232536 !important;
+    line-height: 28px !important;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #232536;
+    line-height: 24px;
+    opacity: 60%;
+}
+
+hr {
+    color: white !important;
+    margin: 5px 0 !important;    
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.sec {
+    scroll-margin-top: 30px;
+}
+
+.sectionInfo {
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 87%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.link {
+    color: #444CFC;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Navbar */
+nav {
+    background-color: #232536 !important;
+}
+
+.nav-item a {
+    font-size: 16px;
+    color: white;
+    opacity: 60%;
+}
+
+.dropdown a {
+    color: white;
+    opacity: 60%;
+}
+
+.dropdown-menu {
+    background-color: #232536 !important;
+}
+
+.bg-background {
+    background-color: #232536;
+}
+
+.active > a{
+    opacity: 100% !important;
+}
+
+.navbar-brand {
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    line-height: 36px;
+}
+
+/* Footer */
+footer {
+    background-color: white;
+}
+
+.footerKontakt p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footerAdresse p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footerBottom {
+    background-color: #e7ecef;
+}
+
+.footerSoMe i {
+    font-size: 22px;
+    color: #5D5F6D;
+    transition: all 0.3s ease 0s;
+}
+
+.soMeIcon:hover > i {
+    color: #8c8d92;
+    transition: all 0.3s ease 0s;
+    transform: translateY(-2px);
+}
+
+footer hr {
+    width: 70%;
+}
+
+footer ul li {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #232536;
+    margin: 13px 0;
+}
+
+footer ul li.footerOverskrift {
+    font-size: 16px;
+    font-weight: 600;
+    color: #232536;
+}
+
+/* Button */
+.button {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 40px;
+    font-weight: 500;
+}
+
+.button-blue {
+    background-color: #444CFC;
+    color: white;
+}
+
+/* Index */
+/* Index - Background */
+.forsideBg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/hero.jpeg');
+    background-size: cover;
+    height: 120vh;
+}
+
+#forsideTitle {
+    font-size: 58px;
+    font-weight: 600;
+    color: white;
+}
+
+#forsideUndertitle {
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    opacity: 60%;
+    width: 75%;
+}
+
+/* Index - Omoss */
+.indexOmossBilder img {
+    width: 100%;
+    height: 446px;
+    object-fit: cover;
+}
+
+.faktaTall {
+    font-weight: 600;
+    font-size: 36px;
+    position: relative;
+    display: inline-block;
+}
+
+.faktaTall::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 72px;
+    background-color: #232536;
+    bottom: 3;
+    left: 5;
+}
+
+.faktaTekst {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+/* Index - Klubben */
+#indexKlubben {
+    background-color: #ECF8F9;
+}
+
+.indexKlubbenBoks {
+    background-color: white;
+}
+
+.indexKlubbenBoksIcon {
+    background-color: #FFE6D2;
+    min-width: 47px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+.indexKlubbenBoks i {
+    font-size: 22px;
+}
+
+.indexKlubbenBoksTekst {
+    width: 75%;
+    margin-top: 20px;
+}
+
+.indexKlubbenBoksTekst p {
+    font-size: 14px;
+    color: #232536;
+}
+
+#indexKlubbenBoksTekstStrek {
+    position: relative;
+    display: inline-block
+}
+
+#indexKlubbenBoksTekstStrek::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #232536;
+    left: 0px;
+    bottom: 0px;
+}
+
+/* Index - Tilbud */
+#indexTilbud {
+    background-color: #F9F9F9;
+}
+
+.indexTilbudBoks {
+    background-color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.indexTilbudBoks:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    transform: translateY(-5px);
+    transition: all 0.3s ease 0s;
+}
+
+.indexTilbudBoksInnold {
+    padding: 50px;
+}
+
+.indexTilbudBoksIcon {
+    background-color: #FFE6D2;
+    width: fit-content;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    padding: 10px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.indexTilbudBoksIcon i {
+    font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Info */
+/* Info - Baneleie */
+#infoBaneleie {
+    background-color: #F9F9FF;
+}
+
+.infoBaneleieBoks {
+    background-color: white;
+    padding: 40px;
+}
+
+.infoBaneleieBoksOverskrift {
+    font-weight: 600;
+    opacity: 100%;
+}
+
+.infoBaneleieBoks p {
+    margin-bottom: 5px;
+}
+
+.infoBaneleieBoks ul li {
+    font-size: 16px;
+    font-weight: 400;
+    color: #232536;
+    line-height: 24px;
+    opacity: 60%;
+}
+
+/* Info - Kurs */
+.infoKursBoks {
+    border: 1px solid rgba(35, 37, 54, 0.17);
+    padding: 30px;
+    width: 95%;
+    display: flex;
+    position: relative;
+    height: 164px;
+}
+
+.infoKursBoks span {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 15px 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: 232536;
+    opacity: 20%;
+}
+
+.infoKursBoksIcon {
+    background-color: rgba(255, 211, 175, 0.17);
+    min-width: 47px;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-top: 25px;
+    margin-right: 20px;
+}
+
+#infoKursBoks1 {
+    position: relative;
+}
+
+#infoKursBoks1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #232536;
+    left: 0px;
+    bottom: 0px;
+}
+
+#infoKursBoks4 {
+    position: relative;
+}
+
+#infoKursBoks4::after {
+    content: "";
+    position: absolute;
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: #232536;
+    left: 0px;
+    top: 0px;
+}
+
+.infoKursPrisBoks {
+    border: 1px solid rgba(35, 37, 54, 0.17);
+    padding: 40px;
+}
+
+.infoKursPrisBoks ul li {
+    font-weight: 400;
+    opacity: 60%;
+    line-height: 34px;
+}
+
+.infoKursBoksOverskrift {
+    opacity: 100%;
+    font-weight: 600;
+}
+
+/* Info - TennisKids */
+#infoTennisKids {
+    background-color: #F9F9F9;
+}
+
+#infoTennisKids img {
+    width: 100%;
+    height: 520px;
+    object-fit: cover;
+}
+
+/* Info - Medlem */
+#infoMedlem {
+    background-color: #ECF8F9;
+}
+
+#infoMedlem ul li {
+    font-weight: 400;
+    opacity: 60%;
+    line-height: 24px;
+}
+
+.infoMedlemOverskrfit {
+    opacity: 100%;
+    font-weight: 600;
+}
+
+.infoMedlemBoks {
+    background-color: white;
+    padding: 40px;
+}
+
+/* Info - Aktiviteter */
+#infoAktiviteter ul li {
+    font-weight: 400;
+    opacity: 60%;
+    line-height: 24px;
+}
+
+#infoAktiviteter2 {
+    background-color: #F9F9FF;
+}
+
+.infoAktiviteterBoks {
+    background-color: white;
+    padding: 30px;
+}
+
+.infoAktiviteterBoksOverskrift {
+    opacity: 100%;
+    font-weight: 600;
+}
+
+/* Prisliste */
+.prislisteHeaderTekstFill h2 {
+    font-size: 160px !important;
+    font-weight: 900 !important;
+    line-height: 100% !important;
+    background: url('../img/hero.jpeg') top;
+    background-position: 50%;
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent !important;
+}
+
+#prislistePrisliste {
+    background-color: #ECF8F9;
+    padding: 50px;
+}
+
+.pirslisteBoksOverskrift {
+    opacity: 100;
+    font-weight: 600;
+}
+
+.prislisteBoks {
+    background-color: white;
+    padding: 30px;
+}
+
+.prislisteBoks p {
+    margin-bottom: 4px;
+}
+
+/* Klubbens Historie */
+#klubbenBilder img {
+    width: 100%;
+    height: 440px;
+    object-fit: cover;
+}
+
+.klubbenHistorieBoks {
+    background-color: #ECF8F9;
+    padding: 50px;
+}
+
+#klubbenSponsorer {
+    background-color: #FAFAFC;
+    padding: 30px;
+}
+
+#klubbenVisjon {
+    background-color: #ECF8F9;
+}
+
+/* Styret */
+#styretMedlemmer img {
+    aspect-ratio: 1.2 / 1;
+    object-fit: cover;    
+    margin-bottom: 5px;
+}
+
+.styretMedlemmerInnhold h5 {
+    font-size: 18px !important;
+    margin-bottom: 0;
+}
+
+/* Kontakt oss */
+.kontaktBoks {
+    background-color: #232536;
+    padding: 100px;
+}
+
+.kontaktBoksItem p {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 100%;
+    line-height: 28px;
+}
+
+.kontaktBoksOverskrift {
+    font-size: 14px !important;
+    opacity: 60% !important;
+}
+
+
+input {
+    border: none !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3) !important;
+    border-radius: 0% !important;
+    padding: 5px 5px 5px 0 !important;
+}
+
+label {
+    font-weight: 500 !important;
+    opacity: 70% !important;
+}
+
+textarea {
+    border: none !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3) !important;
+    border-radius: 0% !important;
+    padding: 5px 5px 5px 0 !important;
+    font-weight: 300 !important;
+}
+
+textarea:focus {
+    box-shadow: none !important;
+}

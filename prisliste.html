@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="nb">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porsgrunn Tennisklubb</title>
+
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./src/css/bootstrap.css">
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/92cc2eddce.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-background navbar-dark fixed-top px-4 px-lg-4">
+            <a class="navbar-brand" href="./index.html">Porsgrunn Tennisklubb</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item me-2 list">
+                        <a class="nav-link" href="./index.html">Hjem</a>
+                    </li>
+                    <li class="nav-item me-2 list">
+                        <a class="nav-link" href="./info.html#infoBaneleie">Baneleie</a>
+                    </li>
+                    <li class="nav-item me-2 list">
+                        <a class="nav-link" href="./info.html#infoKurs">Kurs</a>
+                    </li>
+                    <li class="nav-item me-2 list">
+                        <a class="nav-link" href="./info.html#infoTennisKids">TennisKids</a>
+                    </li>
+                    <li class="nav-item me-2 list">
+                        <a class="nav-link" href="./info.html#infoMedlem">Medlem</a>
+                    </li>
+                    <li class="nav-item me-2 list">
+                        <a class="nav-link" href="./info.html#infoAktiviteter">Aktiviteter</a>
+                    </li>
+                    <li class="dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu" data-bs-toggle="dropdown"
+                            aria-expanded="false">Klubben</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+                            <li class="nav-item me-2 active">
+                                <a class="nav-link" href="./prisliste.html">Prisliste</a>
+                            </li>
+                            <li class="nav-item me-2">
+                                <a class="nav-link" href="./klubbensHistorie.html">Klubbens historie</a>
+                            </li>
+                            <li class="nav-item me-2">
+                                <a class="nav-link" href="./Styret.html">Styret</a>
+                            </li>
+                            <li class="nav-item me-2">
+                                <a class="nav-link" href="./Trenere.html">Trenere</a>
+                            </li>
+                            <li>
+                                <hr>
+                            </li>
+                            <li class="nav-item me-2">
+                                <a class="nav-link" href="./prisliste.html">Vedtekter - organisasjonsplan - årshjul</a>
+                            </li>
+                            <li class="nav-item me-2">
+                                <a class="nav-link" href="./prisliste.html">Årsmøtereferat</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link" href="./kontakt.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="prislisteHeader">
+            <div class="container">
+                <div class="row justify-content-center mb-3" style="margin-top: 50px;">
+                    <div class="col-12 col-lg-7 mt-5 text-center">
+                        <p class="sectionInfo">Prisliste</p>
+                        <h2 class="mb-3">Her finner du priser for alt Porsgrunn Tennisklubb har og tilby</h2>
+                        <p>Ta kontakt dersom noe er uklart eller spesielle henvendelser. Eller ta turen innom for en
+                            hyggelig prat</p>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center mb-3">
+                    <div class="col-10 prislisteHeaderTekstFill text-center">
+                        <p class="mb-2">Se våre priser her:</p>
+                        <i class="fa-solid fa-arrow-down"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <div class="container mb-5">
+            <section id="prislistePrisliste">
+                <div class="container">
+                    <div class="row p-5">
+                        <div class="col-4 mb-4">
+                            <div class="prislisteBoks h-100 d-flex flex-column">
+                                <p class="pirslisteBoksOverskrift">Baneleie</p>
+                                <p>Medlemmer kr. 200,- per time</p>
+                                <p>Ikke medlemmer kr. 300,- per time</p>
+                                <a class="link mt-auto">Book nå<i class="fa-solid fa-arrow-right-long ms-2 link"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-4">
+                            <div class="prislisteBoks h-100 d-flex flex-column">
+                                <p class="pirslisteBoksOverskrift">Baneleie fast</p>
+                                <p>Fra 1. januar til 1. juli</p>
+                                <p>Medlemmer 1 time, kroner 3000,-</p>
+                                <p>Ikke medlemmer 3700,-</p>
+                                <a class="link mt-auto">Book nå<i class="fa-solid fa-arrow-right-long ms-2 link"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-4">
+                            <div class="prislisteBoks h-100 d-flex flex-column">
+                                <p class="pirslisteBoksOverskrift">Baneleie fast</p>
+                                <p>Fra 1.september til 1. juli</p>
+                                <p>Medlemmer 1 time, kroner 5000,-</p>
+                                <p>Ikke medlemmer, kroner 6000,-</p>
+                                <a class="link mt-auto">Book nå<i class="fa-solid fa-arrow-right-long ms-2 link"></i></a>
+                            </div>
+                        </div>
+
+                        <div class="col-4 mb-4">
+                            <div class="row h-100">
+                                <div class="col-12 mb-4">
+                                    <div class="prislisteBoks h-100 d-flex flex-column">
+                                        <p class="pirslisteBoksOverskrift">Årskort</p>
+                                        <p>Familieårskort kr. 2800,-</p>
+                                        <p>Senior kr. 2200,-</p>
+                                        <p>Junior kr. 1000,-</p>
+                                        <a class="link mt-auto">Book nå<i class="fa-solid fa-arrow-right-long ms-2 link"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="prislisteBoks h-100 d-flex flex-column">
+                                        <p class="pirslisteBoksOverskrift">Lunchtennis</p>
+                                        <p>Lunchtennis med trener (inkludert lunch) onsdag 10.00- 13.00 kr. 100,-</p>
+                                        <a class="link mt-auto">Book nå<i class="fa-solid fa-arrow-right-long ms-2 link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-4 mb-4">
+                            <div class="row h-100">
+                                <div class="col-12 mb-4">
+                                    <div class="prislisteBoks h-100 d-flex flex-column">
+                                        <p class="pirslisteBoksOverskrift">Medlemskap</p>
+                                        <p>Familiemedlemskap kr. 2100,-</p>
+                                        <p>Seniormedlemskap kr. 1400,-</p>
+                                        <p>Juniormedlemskap 10-18 år kr. 900,-</p>
+                                        <p>Juniormedlemskap under 10 år kr. 550,-</p>
+                                        <a class="link mt-auto">Book nå<i class="fa-solid fa-arrow-right-long ms-2 link"></i></a>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="prislisteBoks h-100 d-flex flex-column">
+                                        <p class="pirslisteBoksOverskrift">Matchtennis</p>
+                                        <p>Matchtennis med trener fredag 11.00-14.00 og 15.00-18.00 kr. 100,-</p>   
+                                        <a class="link mt-auto">Book nå<i class="fa-solid fa-arrow-right-long ms-2 link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-4 mb-4">
+                            <div class="prislisteBoks h-100 d-flex flex-column">
+                                <p class="pirslisteBoksOverskrift">Gruppetreninger med trener</p>
+                                <p>Minitennis, 1 time pr. uke kr. 1450,- inkludert racket.</p>
+                                <p>Minitennis, 2 timer pr. uke kr. 2500,- inkludert racket.</p>
+                                <p>1 time pr. uke fra 10 år kr. 1950,-</p>
+                                <p>1,5 timer pr. uke fra 10 år kr. 2700,-</p>
+                                <p>2 timer pr. uke fra 10 år kr. 3500,-</p>
+                                <p>2,5 timer pr. uke fra 10 år kr. 4000,-</p>
+                                <p>3 timer pr. uke fra 10 år kr. 4450,-</p>
+                                <p>4,5 timer pr. uke fra 10 år kr. 5850,-</p>
+                                <p class="mb-5">6 timer pr. uke fra 10 år kr. 7100,-</p>
+                                <a class="link mt-auto">Book nå<i class="fa-solid fa-arrow-right-long ms-2 link"></i></a>
+                            </div>
+                        </div>     
+                        
+                        <div class="col-4 mb-4">
+                            <div class="prislisteBoks h-100 d-flex flex-column">
+                                <p class="pirslisteBoksOverskrift">Sommermedlemskap</p>
+                                <p>Familie kr. 950,-</p>
+                                <p>Senior kr. 700,-</p>
+                                <p>Junior 10-18 år kr. 500,-</p>
+                                <p>Junior under 10 år kr. 400,-</p>
+                                <a class="link mt-auto">Book nå<i class="fa-solid fa-arrow-right-long ms-2 link"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-4">
+                            <div class="prislisteBoks h-100 d-flex flex-column">
+                                <p class="pirslisteBoksOverskrift">Strenging av racket</p>
+                                <p>Strenging av tennisrackert Inkl. standard streng kr. 400.-</p>
+                                <a class="link mt-auto">Book nå<i class="fa-solid fa-arrow-right-long ms-2 link"></i></a>
+                            </div>
+                        </div>
+                        <div class="col-4 mb-4">
+                            <div class="prislisteBoks h-100 d-flex flex-column">
+                                <p class="pirslisteBoksOverskrift">Personlig trener ink. bane og baller</p>
+                                <p>Medlemmer 1 time kr. 600,-</p>
+                                <p>Medlemmer 10 timer kr. 5500,-</p>
+                                <p>Medlemmer med årskort 1 time kr. 400,-</p>
+                                <p>Medlemmer med årskort 10 timer kr. 3500,-</p>
+                                <a class="link mt-auto">Book nå<i class="fa-solid fa-arrow-right-long ms-2 link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div> -->
+
+        <div class="container">
+            <section id="prislistePrisliste" class="mb-5">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-lg-6">
+                        <div class="accordion accordion-flush" id="accordionPrisliste">
+                            <!-- Baneleie -->
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="flushHeadingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flushCollapseOne" aria-expanded="false"
+                                        aria-controls="flushCollapseOne">
+                                        Baneleie
+                                    </button>
+                                </h4>
+                                <div id="flushCollapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flushHeadingOne" data-bs-parent="#accordionPrisliste">
+                                    <div class="accordion-body">
+                                        <h5>Baneleie</h5>
+                                        <p>Medlemmer kr. 200,- per time</p>
+                                        <p>Ikke medlemmer kr. 300,- per time</p>
+                                        <a href="https://www.matchi.se/facilities/porsgrunntk?date=2023-04-23&sport="
+                                            target="_blank" class="link mt-auto">Book nå<i
+                                                class="fa-solid fa-arrow-right-long ms-2 link"></i></a>
+
+                                        <h5 class="mt-5">Baneleie fast</h5>
+                                        <p>Fra 1. januar til 1. juli</p>
+                                        <p>Medlemmer 1 time, kroner 3000,-</p>
+                                        <p>Ikke medlemmer 3700,-</p>
+
+                                        <p class="mt-5">Fra 1.september til 1. juli</p>
+                                        <p>Medlemmer 1 time, kroner 5000,-</p>
+                                        <p>Ikke medlemmer, kroner 6000,-</p>
+                                        <a href="./kontakt.html" class="link mt-auto">Ta kontakt<i
+                                                class="fa-solid fa-arrow-right-long ms-2 link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Medlemskap -->
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="flushHeadingMedlemskap">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flushCollapseMedlemskap" aria-expanded="false"
+                                        aria-controls="flushCollapseMedlemskap">
+                                        Medlemskap
+                                    </button>
+                                </h4>
+                                <div id="flushCollapseMedlemskap" class="accordion-collapse collapse"
+                                    aria-labelledby="flushHeadingMedlemskap" data-bs-parent="#accordionPrisliste">
+                                    <div class="accordion-body">
+                                        <h5>Medlemskap</h5>
+                                        <p>Familiemedlemskap kr. 2100,-</p>
+                                        <p>Seniormedlemskap kr. 1400,-</p>
+                                        <p>Juniormedlemskap 10-18 år kr. 900,-</p>
+                                        <p>Juniormedlemskap under 10 år kr. 550,-</p>
+
+                                        <h5 class="mt-5">Sommermedlemskap</h5>
+                                        <p>Familie kr. 950,-</p>
+                                        <p>Senior kr. 700,-</p>
+                                        <p>Junior 10-18 år kr. 500,-</p>
+                                        <p>Junior under 10 år kr. 400,-</p>
+                                        <a href="./kontakt.html" class="link mt-auto">Ta kontakt<i
+                                                class="fa-solid fa-arrow-right-long ms-2 link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Gruppetrening -->
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="flushHeadingGruppetrening">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flushCollapseGruppetrening" aria-expanded="false"
+                                        aria-controls="flushCollapseGruppetrening">
+                                        Gruppetrening
+                                    </button>
+                                </h4>
+                                <div id="flushCollapseGruppetrening" class="accordion-collapse collapse"
+                                    aria-labelledby="flushHeadingMGruppetrening" data-bs-parent="#accordionPrisliste">
+                                    <div class="accordion-body">
+                                        <h5>Gruppetreninger med trener</h5>
+                                        <p>Minitennis, 1 time pr. uke kr. 1450,- inkludert racket.</p>
+                                        <p>Minitennis, 2 timer pr. uke kr. 2500,- inkludert racket.</p>
+                                        <p>1 time pr. uke fra 10 år kr. 1950,-</p>
+                                        <p>1,5 timer pr. uke fra 10 år kr. 2700,-</p>
+                                        <p>2 timer pr. uke fra 10 år kr. 3500,-</p>
+                                        <p>2,5 timer pr. uke fra 10 år kr. 4000,-</p>
+                                        <p>3 timer pr. uke fra 10 år kr. 4450,-</p>
+                                        <p>4,5 timer pr. uke fra 10 år kr. 5850,-</p>
+                                        <p class="mb-5">6 timer pr. uke fra 10 år kr. 7100,-</p>
+                                        <a href="./kontakt.html" class="link mt-auto">Ta kontakt<i
+                                                class="fa-solid fa-arrow-right-long ms-2 link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Privat timer -->
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="flushHeadingPrivattimer">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flushCollapsePrivattimer" aria-expanded="false"
+                                        aria-controls="flushCollapsePrivattimer">
+                                        Personlig trener
+                                    </button>
+                                </h4>
+                                <div id="flushCollapsePrivattimer" class="accordion-collapse collapse"
+                                    aria-labelledby="flushHeadingPrivattimer" data-bs-parent="#accordionPrisliste">
+                                    <div class="accordion-body">
+                                        <h5>Personlig trener ink. bane og baller</h5>
+                                        <p>Minitennis, 1 time pr. uke kr. 1450,- inkludert racket.</p>
+                                        <p>Minitennis, 2 timer pr. uke kr. 2500,- inkludert racket.</p>
+                                        <p>1 time pr. uke fra 10 år kr. 1950,-</p>
+                                        <p>1,5 timer pr. uke fra 10 år kr. 2700,-</p>
+                                        <p>2 timer pr. uke fra 10 år kr. 3500,-</p>
+                                        <p>2,5 timer pr. uke fra 10 år kr. 4000,-</p>
+                                        <p>3 timer pr. uke fra 10 år kr. 4450,-</p>
+                                        <p>4,5 timer pr. uke fra 10 år kr. 5850,-</p>
+                                        <p class="mb-5">6 timer pr. uke fra 10 år kr. 7100,-</p>
+                                        <a href="./kontakt.html" class="link mt-auto">Ta kontakt<i
+                                                class="fa-solid fa-arrow-right-long ms-2 link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Årskort -->
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="flushHeadingArskort">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flushCollapseArskort" aria-expanded="false"
+                                        aria-controls="flushCollapseArskort">
+                                        Årskort
+                                    </button>
+                                </h4>
+                                <div id="flushCollapseArskort" class="accordion-collapse collapse"
+                                    aria-labelledby="flushHeadingArskort" data-bs-parent="#accordionPrisliste">
+                                    <div class="accordion-body">
+                                        <h5>Årskort</h5>
+                                        <p>Familieårskort kr. 2800,-</p>
+                                        <p>Senior kr. 2200,-</p>
+                                        <p>Junior kr. 1000,-</p>
+                                        <a href="./kontakt.html" class="link mt-auto">Ta kontakt<i
+                                                class="fa-solid fa-arrow-right-long ms-2 link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Aktiviteter -->
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="flushHeadingAktiviteter">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flushCollapseAktiviteter" aria-expanded="false"
+                                        aria-controls="flushCollapseAktiviteter">
+                                        Aktiviteter
+                                    </button>
+                                </h4>
+                                <div id="flushCollapseAktiviteter" class="accordion-collapse collapse"
+                                    aria-labelledby="flushHeadingAktiviteter" data-bs-parent="#accordionPrisliste">
+                                    <div class="accordion-body">
+                                        <h5>Lunchtennis</h5>
+                                        <p>Lunchtennis med trener (inkludert lunch) onsdag 10.00- 13.00 kr. 100,-</p>
+                                        <a href="./kontakt.html" class="link mt-auto">Ta kontakt<i
+                                                class="fa-solid fa-arrow-right-long ms-2 link"></i></a>
+
+                                        <h5 class="mt-5">Matchtennis</h5>
+                                        <p>Matchtennis med trener fredag 11.00-14.00 og 15.00-18.00 kr. 100,-</p>
+                                        <a href="./kontakt.html" class="link mt-auto">Ta kontakt<i
+                                                class="fa-solid fa-arrow-right-long ms-2 link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Diverse -->
+                            <div class="accordion-item">
+                                <h4 class="accordion-header" id="flushHeadingDiverse">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flushCollapseDiverse" aria-expanded="false"
+                                        aria-controls="flushCollapseDiverse">
+                                        Diverse
+                                    </button>
+                                </h4>
+                                <div id="flushCollapseDiverse" class="accordion-collapse collapse"
+                                    aria-labelledby="flushHeadingDiverse" data-bs-parent="#accordionPrisliste">
+                                    <div class="accordion-body">
+                                        <h5>Strening av racket</h5>
+                                        <p>Strenging av tennisrackert Inkl. standard streng kr. 400.-</p>
+                                        <a href="./kontakt.html" class="link mt-auto">Ta kontakt<i
+                                                class="fa-solid fa-arrow-right-long ms-2 link"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <!-- <div class="container">
+            <div class="row mb-3">
+                <div class="col-5" style="margin-top: 60px;">
+                    <h2 class="mb-4">Vi vil ha deg med!</h2>
+                    <h4 class="mb-5">Ta kontakt!</h4>
+                    <div class="footerKontakt">
+                        <p class="mb-2">+47 994 08 845</p>
+                        <p>kontor@porsgrunntk.no</p>
+                    </div>
+                    <hr>
+                    <div class="footerAdresse">
+                        <p class="mb-0">Kjølnes Ring 64,</p>
+                        <p>3918 Porsgrunn</p>
+                    </div>
+                </div>
+                <div class="col-7 d-flex justify-content-center" style="margin-top: 60px;">
+                    <div class="row">
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li class="footerOverskrift">Hjem</li>
+                                <li class="footerOverskrift">Baneleie</li>
+                                <li class="footerOverskrift">Kurs</li>
+                                <li class="footerOverskrift">TennisKids</li>
+                                <li class="footerOverskrift">Aktiviteter</li>
+                                <li class="footerOverskrift">Medlem</li>
+                            </ul>
+                        </div>
+
+                        <div class="col-6">
+                            <ul class="list-unstyled">
+                                <li class="footerOverskrift">Klubben</li>
+                                <li>Prisliste</li>
+                                <li>Klubbens Historie</li>
+                                <li>Styret</li>
+                                <li>Trenere</li>
+                                <li>Vedtekter</li>
+                                <li>Årsmøtereferat</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <div class="footerBottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between mt-4 mb-4">
+                        <div class="footerText d-flex align-items-center">
+                            <h4 class="me-4" style="margin: 0;">Porsgrunn Tennisklubb</h4>
+                            <p style="margin: 0">©2023 Porsgrunn Tennisklubb</p>
+                        </div>
+
+                        <div class="footerSoMe">
+                            <div class="d-flex align-items-center">
+                                <a class="soMeIcon me-2">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <a class="soMeIcon me-2">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a class="soMeIcon me-2">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="./src/js/bootstrap.bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

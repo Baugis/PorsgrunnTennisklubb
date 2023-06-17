@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="nb">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porsgrunn Tennisklubb</title>
+
+    <link rel="stylesheet" href="./src/css/style.css" />
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./src/css/bootstrap.css" />
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/92cc2eddce.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-background navbar-dark fixed-top px-4 px-lg-4">
+            <a class="navbar-brand" href="./index.html">Porsgrunn Tennisklubb</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item me-2 list">
+                        <a class="nav-link" href="./index.html">Hjem</a>
+                    </li>
+                    <li class="nav-item me-2 list">
+                        <a class="nav-link" href="./info.html">Baneleie</a>
+                    </li>
+                    <li class="nav-item me-2 list">
+                        <a class="nav-link" href="./info.html#infoKurs">Kurs</a>
+                    </li>
+                    <li class="nav-item me-2 list">
+                        <a class="nav-link" href="./info.html#infoTennisKids">TennisKids</a>
+                    </li>
+                    <li class="nav-item me-2 list">
+                        <a class="nav-link" href="./info.html#infoMedlem">Medlem</a>
+                    </li>
+                    <li class="nav-item me-2 list">
+                        <a class="nav-link" href="./info.html#infoAktiviteter">Aktiviteter</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownMenu" data-bs-toggle="dropdown"
+                            aria-expanded="false">Klubben</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu">
+                            <li class="nav-item me-2">
+                                <a class="nav-link" href="./prisliste.html">Prisliste</a>
+                            </li>
+                            <li class="nav-item me-2">
+                                <a class="nav-link" href="./klubbensHistorie.html">Klubbens historie</a>
+                            </li>
+                            <li class="nav-item me-2">
+                                <a class="nav-link" href="./Styret.html">Styret</a>
+                            </li>
+                            <li class="nav-item me-2">
+                                <a class="nav-link" href="./Trenere.html">Trenere</a>
+                            </li>
+                            <li>
+                                <hr />
+                            </li>
+                            <li class="nav-item me-2">
+                                <a class="nav-link" href="./prisliste.html">Vedtekter - organisasjonsplan - årshjul</a>
+                            </li>
+                            <li class="nav-item me-2">
+                                <a class="nav-link" href="http://www.porsgrunntk.no/A%CC%8Arsm%C3%B8tereferat.pdf"
+                                    target="_blank">Årsmøtereferat</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item me-2 active">
+                        <a class="nav-link" href="./kontakt.html">Kontakt</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container mb-5">
+            <div class="row justify-content-between" style="margin-top: 160px;">
+                <div class="col-12 col-lg-5 mb-5" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true">
+                    <h4>Kontakt oss</h4>
+                    <h2>Har du noen spørsmål? Send oss en melding</h2>
+                    <p>Vi vil komme tilbake til deg innen 24 timer</p>
+                    <form class="form-group" action="https://formsubmit.co/01henrikb@gmail.com" method="POST" />
+                        <label for="fornavn">Fornavn</label>
+                        <input class="form-control mb-4" type="text" name="fornavn" id="name" required>
+                        <label for="epost">E-post</label>
+                        <input class="form-control mb-4" type="email" name="email" id="email" required>
+                        <label for="emne">Emne</label>
+                        <input class="form-control mb-4" type="text" name="emne" id="emne" required>
+                        <label for="melding">Melding</label>
+                        <textarea class="form-control mb-4" name="tekst" id="text" rows="7" style="width: 100%;"
+                            placeholder="Skriv meldingen din her" required></textarea>
+                        <button type="submit" class="btn btn-primary btn-lg">Send melding</button>
+                    </form>
+
+                </div>
+
+                <div class="col-12 col-lg-6 col-xl-5 mb-5" data-aos="zoom-in" data-aos-duration="1000"
+                    data-aos-once="true">
+                    <div class="kontaktBoks">
+                        <div class="kontaktBoksItem mb-4">
+                            <p class="kontaktBoksOverskrift">
+                                Adresse
+                            </p>
+                            <a href="https://goo.gl/maps/v7SLvYJxnHLx2ciK7" target="_blank">
+                                <p>Kjølnes Ring 64,<br> 3918 Porsgrunn</p>
+                            </a>
+                        </div>
+                        <div class="kontaktBoksItem mb-4">
+                            <p class="kontaktBoksOverskrift">
+                                Åpningstider
+                            </p>
+                            <p>Mandag til Søndag<br>Døgnåpent</p>
+                        </div>
+                        <div class="kontaktBoksItem mb-4">
+                            <p class="kontaktBoksOverskrift">
+                                Kontakt oss
+                            </p>
+                            <a href="tel:+4799408845">
+                                <p>+47 994 08 845</p>
+                            </a>
+                            <a href="mailto:kontor@porsgrunntk.no">
+                                <p>Kontor@porsgrunntk.no</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <!-- <div class="container">
+                <div class="row mb-3">
+                    <div class="col-5" style="margin-top: 60px;">
+                        <h2 class="mb-4">Vi vil ha deg med!</h2>
+                        <h4 class="mb-5">Ta kontakt!</h4>
+                        <div class="footerKontakt">
+                            <p class="mb-2">+47 994 08 845</p>
+                            <p>kontor@porsgrunntk.no</p>
+                        </div>
+                        <hr>
+                        <div class="footerAdresse">
+                            <p class="mb-0">Kjølnes Ring 64,</p>
+                            <p>3918 Porsgrunn</p>
+                        </div>
+                    </div>
+                    <div class="col-7 d-flex justify-content-center" style="margin-top: 60px;">
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <li class="footerOverskrift">Hjem</li>
+                                    <li class="footerOverskrift">Baneleie</li>
+                                    <li class="footerOverskrift">Kurs</li>
+                                    <li class="footerOverskrift">TennisKids</li>
+                                    <li class="footerOverskrift">Aktiviteter</li>
+                                    <li class="footerOverskrift">Medlem</li>
+                                </ul>
+                            </div>
+    
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <li class="footerOverskrift">Klubben</li>
+                                    <li>Prisliste</li>
+                                    <li>Klubbens Historie</li>
+                                    <li>Styret</li>
+                                    <li>Trenere</li>
+                                    <li>Vedtekter</li>
+                                    <li>Årsmøtereferat</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+    
+        <div class="footerBottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-between mt-4 mb-4">
+                        <div class="footerText d-flex align-items-center">
+                            <h4 class="me-4" style="margin: 0">Porsgrunn Tennisklubb</h4>
+                            <p style="margin: 0">©2023 Porsgrunn Tennisklubb</p>
+                        </div>
+    
+                        <div class="footerSoMe">
+                            <div class="d-flex align-items-center">
+                                <a class="soMeIcon me-2">
+                                    <i class="fa-brands fa-facebook"></i>
+                                </a>
+                                <a class="soMeIcon me-2">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                                <a class="soMeIcon me-2">
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+    <script src="./src/js/bootstrap.bundle.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <!-- Smtp -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function sendEmail(){
+            Email.send({
+                Host: "smtp.elasticemail.com",
+                Username: "01henrikb@gmail.com",
+                Password: "password",
+                To: 'them@website.com',
+                From: "you@isp.com",
+                Subject: "This is the subject",
+                Body: "And this is the body"
+            }).then(
+                message => alert(message)
+            );
+        }
+    </script>
+</body>
+
+</html>
