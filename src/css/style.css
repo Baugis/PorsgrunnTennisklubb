@@ -586,3 +586,11 @@ textarea:focus {
 .dropdown-menu {
     border: none !important;
 }
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none !important;
+}
