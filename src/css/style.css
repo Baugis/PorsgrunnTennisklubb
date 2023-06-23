@@ -61,6 +61,12 @@ a {
     letter-spacing: 2px;
 }
 
+@media only screen and (max-width: 575px) {
+    .sectionInfo {
+        padding-top: 30px;
+    }
+}
+
 .link {
     color: #444CFC;
     font-weight: 500;
@@ -100,6 +106,12 @@ nav {
     font-size: 22px !important;
     font-weight: 600 !important;
     line-height: 36px;
+}
+
+@media only screen and (max-width: 345px) {
+    #forsideTitle  {
+        font-size: 46px !important;
+    }
 }
 
 /* Footer */
