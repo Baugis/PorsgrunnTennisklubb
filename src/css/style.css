@@ -129,9 +129,9 @@ footer {
     font-weight: 500;
 }
 
-.footerBottom {
+/* .footerBottom {
     background-color: #e7ecef;
-}
+} */
 
 .footerSoMe i {
     font-size: 22px;
@@ -162,6 +162,10 @@ footer ul li.footerOverskrift {
     font-size: 16px;
     font-weight: 600;
     color: #232536;
+}
+
+.PTK-logo {
+    height: 70px;
 }
 
 /* Button */
