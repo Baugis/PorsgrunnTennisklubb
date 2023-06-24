@@ -180,9 +180,10 @@ footer ul li.footerOverskrift {
 /* Index */
 /* Index - Background */
 .forsideBg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/hero.jpeg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/nyhet3.jpg');
     background-size: cover;
-    height: 120vh;
+    background-position: center;
+    height: 100vh;
 }
 
 #forsideTitle {
