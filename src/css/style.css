@@ -185,7 +185,8 @@ footer ul li.footerOverskrift {
 /* Index */
 /* Index - Background */
 .forsideBg {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/nyhet3.jpg');
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/nyhet3.jpg'); */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/DJI_0032.jpg');
     background-size: cover;
     background-position: center;
     height: 100vh;
