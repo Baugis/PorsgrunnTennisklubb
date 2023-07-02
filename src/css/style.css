@@ -614,3 +614,12 @@ textarea:focus {
 .navbar-toggler:focus {
     box-shadow: none !important;
 }
+
+.dropdown-menu a {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1) !important;
+    font-weight: 400 !important;
+}
+
+.dropdown-menu hr {
+    display: none !important;
+}
